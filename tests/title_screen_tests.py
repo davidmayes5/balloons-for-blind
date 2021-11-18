@@ -1,4 +1,4 @@
-import coordinates, interactions
+from framework import coordinates, interactions
 import time
 
 def test_title_buttons():

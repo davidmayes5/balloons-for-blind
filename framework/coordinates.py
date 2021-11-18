@@ -1,10 +1,9 @@
-# Variables for compatability between screens
 from win32api import GetSystemMetrics
 
-# Developed on screen with 2560 width by 1440 height pixels
 width = GetSystemMetrics(0)
 height = GetSystemMetrics(1)
 
+# Developed on screen with 2560 width by 1440 height pixels
 dev_width = 2560
 dev_height = 1440
 
@@ -26,6 +25,11 @@ title = {
     "powers": {"x": x_scale*1750, "y": y_scale*1275},
     "knowledge": {"x": x_scale*2050, "y": y_scale*1275},
 
+    "treasure": {"x": x_scale*750, "y": y_scale*860},
+    "events": {"x": x_scale*1850, "y": y_scale*820}
+}
+
+events = {
     "odyssey event": {"x": x_scale*2450, "y": y_scale*300},
     "race event": {"x": x_scale*2450, "y": y_scale*495},
     "boss bloon event": {"x": x_scale*2450, "y": y_scale*690}
